@@ -1,0 +1,51 @@
+/* App Container Styles */
+.message-app {
+  background-color: #f8f9fa;
+}
+
+/* Main Content Styles */
+.app-main {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem 0.5rem;
+  }
+
+  .main-container {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .app-main {
+    padding: 1.5rem;
+  }
+}
+
+
+/* Safe Area Support */
+@supports(padding: max(0px)) {
+  .app-main {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
