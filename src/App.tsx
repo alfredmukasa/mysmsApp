@@ -16,7 +16,8 @@ import PDFtoText from './components/PDFtoText';
 // Import message components
 import MessageApp from './components/message/MessageApp';
 import MessageGenerator from './components/message/MessageGenerator';
-
+// video downloader
+import VideoDownload from './components/videodownloader/Videodownload';
 const App = () => (
   <Router>
     <Routes>
@@ -35,6 +36,8 @@ const App = () => (
       <Route path="/compress-pdf" element={<CompressPDF />} />
       <Route path="/pdf-to-text" element={<PDFtoText />} />
 
+      {/* video downloader */}
+      <Route path="/video-downloader" element={<VideoDownload />} />
       {/* Message app routes */}
       <Route path="/messages" element={<MessageApp />}>
         <Route path="generate" element={<MessageGenerator />} />

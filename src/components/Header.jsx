@@ -5,13 +5,13 @@ import Logo from "../assets/logo/alra-tech-high-resolution-logo.png";
 import { 
   Home, 
   FileText, 
-  MessageCircle, 
-  Gem, 
+  MessageCircle,  
   Info, 
   LogIn,
   Menu,
   X,
-  ChevronRight
+  ChevronRight,
+  Video
 } from 'lucide-react';
 
 const Header = () => {
@@ -35,8 +35,8 @@ const Header = () => {
     { icon: Home, name: "Home", link: "/" },
     { icon: FileText, name: "PDF Tools", link: "/pdf-tools" },
     { icon: MessageCircle, name: "Messages", link: "/messages" },
-    { icon: Gem, name: "Pricing", link: "#pricing" },
     { icon: Info, name: "About", link: "/about" },
+    { icon: Video, name: "Video Downloader", link: "/video-downloader" },
   ];
 
   return (

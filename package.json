@@ -22,8 +22,11 @@
     "docx": "^9.1.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "fb-video-downloader": "^1.0.3",
     "file-saver": "^2.0.5",
+    "fluent-ffmpeg": "^2.1.3",
     "framer-motion": "^11.15.0",
+    "instagram-url-direct": "^1.1.1",
     "jspdf": "^2.5.2",
     "lottie-web": "^5.12.2",
     "lucide-react": "^0.468.0",
@@ -41,9 +44,12 @@
     "react-icons": "^5.4.0",
     "react-lottie": "^1.2.10",
     "react-lottie-player": "^2.1.0",
+    "react-player": "^2.16.0",
     "react-router-dom": "^7.1.0",
     "react-toastify": "^10.0.6",
-    "tesseract.js": "^5.1.1"
+    "tesseract.js": "^5.1.1",
+    "twitter-url-direct": "^1.0.9",
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -63,5 +69,5 @@
     "MONGODB_URI": "mongodb+srv://messageapp:alfred2456@cluster0.xb7g6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "BASE_URL": "http://localhost:3000"
   },
-  "homepage": "https://alfredmukasa.github.io/nelsaApp"
+  "homepage": "https://alfredmukasa.github.io/mysmsApp"
 }
